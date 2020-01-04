@@ -26,10 +26,11 @@ bothNEI <- rbind(vehiclesB24510NEI,vehiclesL06037NEI)
 
 png(filename='C:/Users/Rainer/Documents/GitHub/ExploratoryDataAnalysisProject2/plot6.PNG')
 library(ggplot2)
+# The palette with grey:
 ggplot(bothNEI, aes(x=factor(year), y=Emissions, fill=city)) +
     geom_bar(aes(fill=year),stat="identity") +
     facet_grid(scales="free", space="free", .~city) +
-    guides(fill=FALSE) + theme_bw() +
+    guides(fill=FALSE) 
     labs(x="Year", y="Total PM2.5 Emission") + 
     labs(title="PM2.5 Motor Vehicle Source Emissions in Baltimore & LA, 1999-2008")
 
