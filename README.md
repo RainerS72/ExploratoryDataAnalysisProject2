@@ -1,6 +1,7 @@
 Exploratory Data Analysis - Course Project 2
 ============================================
 
+# My Answers are at the end of this file !!!
 
 # Introduction
 
@@ -68,3 +69,25 @@ For each plot you should
 * Create a separate R code file (plot1.R, plot2.R, etc.) that constructs the corresponding plot, i.e. code in plot1.R constructs the plot1.png plot. Your code file should include code for reading the data so that the plot can be fully reproduced. You should also include the code that creates the PNG file. Only include the code for a single plot (i.e. plot1.R should only include code for producing plot1.png)
 * Upload the PNG file on the Assignment submission page
 * Copy and paste the R code from the corresponding R file into the text box at the appropriate point in the peer assessment.
+
+# Answers
+Q1: Have total emissions from PM2.5 decreased in the United States from 1999 to 2008?
+* **Yes**, total emissions have decreased in the United States from 1999 to 2008. See plot1.PNG
+
+Q2: Have total emissions from PM2.5 decreased in the Baltimore City, Maryland (fips=="24510") from 1999 to 2008?
+* **Yes**, total emissions from PM2.5 have decreased in Baltimore City, Maryland from 1999 to 2008. See plot2.PNG
+
+Q3(1): Of the four types of sources indicated by the type (point, nonpoint, onroad, nonroad) variable, which of these four sources have seen decreases in emissions from 1999–2008 for Baltimore City?
+* The non-road, nonpoint, on-road source types have all seen **decreased emissions**  from 1999-2008 in Baltimore City. See plot3.PNG
+
+Q3(2): Which have seen increases in emissions from 1999–2008?
+* The **point** source saw a slight increase overall from 1999-2008. Also note that the **point** source saw a significant increase until 2005 and then it decreased again by 2008. See plot3.PNG
+
+Q4: Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008?
+* Emissions from coal combustion-related sources have **decreased** from 0.57 to below 0.4 million tons from 1999-2008. See plot4.PNG
+
+Q5: How have emissions from motor vehicle sources changed from 1999–2008 in Baltimore City?
+* Emissions from motor vehicle sources have **reduced** from 1999-2008 in Baltimore City. See plot5.PNG
+
+Q6: Which city has seen greater changes over time in motor vehicle emissions?
+* **Los Angeles** has seen the greatest changes over time in motor vehicle emissions. See plot6.PNG
